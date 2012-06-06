@@ -1,0 +1,27 @@
+Contents of /Users/esri/Documents/project/TestShp/TestShp_Prefix.pch
+3.1 (tags/Apple/clang-318.0.58) (based on LLVM 3.1svn)
+i386-apple-darwin11.3.0
+-x
+c
+-arch
+i386
+-fmessage-length=0
+-std=c99
+-fpascal-strings
+-O0
+-isysroot
+/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+-fexceptions
+-fasm-blocks
+-mmacosx-version-min=10.6
+-g
+-fvisibility=hidden
+-D__IPHONE_OS_VERSION_MIN_REQUIRED=40200
+-iquote
+-iquote
+-iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include
+-iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private
+-I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include
+-F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator
+-F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1
+SDK_PRODUCT_BUILD_VERSION=9B176

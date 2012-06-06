@@ -1,0 +1,916 @@
+TTestShp
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Info.plist TestShp-Info.plist
+cCompileXIB /Users/esri/Documents/project/TestShp/MainWindow.xib
+cCompileXIB /Users/esri/Documents/project/TestShp/TestShpViewController.xib
+cCpResource "Bing Logo@2x.png" "DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing Logo@2x.png"
+cCpResource "Bing Logo.png" "DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing Logo.png"
+cCpResource esri.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri.png
+cCpResource esri@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri@2x.png
+cCompileXIB /Users/esri/Documents/project/TestShp/Resources-iPad/MainWindow-iPad.xib
+cCpResource GpsDisplay.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay.png
+cCpResource GpsDisplayHeading.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading.png
+cCpResource GpsDisplayHeading@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading@2x.png
+cCpResource GpsDisplay@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay@2x.png
+cCpResource pushpin.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/pushpin.png
+cCpResource res4_4m DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/res4_4m
+cProcessPCH /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch.pth TestShp_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-bmjtqjumlkjhxqgawixrnsoyefdg/TestShp_Prefix.pch.pth TestShp_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/dbfopen.o /Users/esri/Documents/project/TestShp/shapelib-1.2.10/dbfopen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shptree.o /Users/esri/Documents/project/TestShp/shapelib-1.2.10/shptree.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shpopen.o /Users/esri/Documents/project/TestShp/shapelib-1.2.10/shpopen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/main.o /Users/esri/Documents/project/TestShp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpAppDelegate.o /Users/esri/Documents/project/TestShp/Classes/TestShpAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpViewController.o /Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/Cluster.o /Users/esri/Documents/project/TestShp/Classes/Cluster.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ClusterManager.o /Users/esri/Documents/project/TestShp/Classes/ClusterManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenu.o /Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenu.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenuItem.o /Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenuItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ShpHelper.o /Users/esri/Documents/project/TestShp/Classes/ShpHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1/ArcGIS.framework/ArcGIS
+c000000004F7C922F00000000046372F4
+t1333563951
+s73626356
+
+N/Users/esri/Documents/project/TestShp/Bing Logo.png
+c000000004DB7C6AB0000000000001223
+t1303889579
+s4643
+
+N/Users/esri/Documents/project/TestShp/Bing Logo@2x.png
+c000000004DB7C6AB0000000000001B61
+t1303889579
+s7009
+
+N/Users/esri/Documents/project/TestShp/Classes/Cluster.m
+c000000004F87E65C0000000000000210
+t1334306396
+s528
+
+N/Users/esri/Documents/project/TestShp/Classes/ClusterManager.m
+c000000004F8CD61500000000000028F5
+t1334629909
+s10485
+
+N/Users/esri/Documents/project/TestShp/Classes/ShpHelper.m
+c000000004FBD8D0A00000000000019C4
+t1337822474
+s6596
+
+N/Users/esri/Documents/project/TestShp/Classes/TestShpAppDelegate.m
+c000000004DB7C6AB0000000000000265
+t1303889579
+s613
+
+N/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m
+c000000004FCED3760000000000001078
+t1338954614
+s4216
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-bmjtqjumlkjhxqgawixrnsoyefdg/TestShp_Prefix.pch.pth
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch.pth
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/Cluster.o
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ClusterManager.o
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenu.o
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenuItem.o
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ShpHelper.o
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShp.LinkFileList
+c000000004FCED37700000000000006F9
+t1338954615
+s1785
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpAppDelegate.o
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpViewController.o
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/dbfopen.o
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shpopen.o
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shptree.o
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app.dSYM
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing Logo.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing Logo@2x.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay@2x.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading@2x.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Info.plist
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/MainWindow-iPad.nib
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/MainWindow.nib
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/PkgInfo
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/TestShp
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/TestShpViewController.nib
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-addbutton-highlighted.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-addbutton-highlighted@2x.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-addbutton.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-addbutton@2x.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-menuitem-highlighted.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-menuitem-highlighted@2x.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-menuitem.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-menuitem@2x.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri@2x.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/icon-plus-highlighted.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/icon-plus-highlighted@2x.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/icon-plus.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/icon-plus@2x.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/icon-star.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/icon-star@2x.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/pushpin.png
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/res4_4m
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/GpsDisplay.png
+c000000004DB7C6AB0000000000000584
+t1303889579
+s1412
+
+N/Users/esri/Documents/project/TestShp/GpsDisplay@2x.png
+c000000004DB7C6AB0000000000000BD9
+t1303889579
+s3033
+
+N/Users/esri/Documents/project/TestShp/GpsDisplayHeading.png
+c000000004DB7C6AB0000000000000682
+t1303889579
+s1666
+
+N/Users/esri/Documents/project/TestShp/GpsDisplayHeading@2x.png
+c000000004DB7C6AB0000000000000DA9
+t1303889579
+s3497
+
+N/Users/esri/Documents/project/TestShp/MainWindow.xib
+c000000004DB7C6AB0000000000002529
+t1303889579
+s9513
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/bg-addbutton-highlighted.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/bg-addbutton-highlighted@2x.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/bg-addbutton.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/bg-addbutton@2x.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/bg-menuitem-highlighted.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/bg-menuitem-highlighted@2x.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/bg-menuitem.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/bg-menuitem@2x.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/icon-plus-highlighted.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/icon-plus-highlighted@2x.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/icon-plus.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/icon-plus@2x.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/icon-star.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/Images/icon-star@2x.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenu.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenuItem.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/esri/Documents/project/TestShp/Resources-iPad/MainWindow-iPad.xib
+c000000004DB7C6AB000000000000513A
+t1303889579
+s20794
+
+N/Users/esri/Documents/project/TestShp/TestShpViewController.xib
+c000000004F87E19100000000000029C7
+t1334305169
+s10695
+
+N/Users/esri/Documents/project/TestShp/TestShp_Prefix.pch
+c000000004DB7C6AB00000000000000B7
+t1303889579
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/esri/Documents/project/TestShp/esri.png
+c000000004DB7C6AB00000000000008FB
+t1303889579
+s2299
+
+N/Users/esri/Documents/project/TestShp/esri@2x.png
+c000000004DB7C6AB00000000000012C2
+t1303889579
+s4802
+
+N/Users/esri/Documents/project/TestShp/main.m
+c000000004DB7C6AB0000000000000164
+t1303889579
+s356
+
+N/Users/esri/Documents/project/TestShp/pushpin.png
+c000000004BDF1F9000000000000004D7
+t1272913808
+s1239
+
+N/Users/esri/Documents/project/TestShp/res4_4m
+c000000004FAE64400000000000000264
+t1336828992
+s612
+
+N/Users/esri/Documents/project/TestShp/shapelib-1.2.10/dbfopen.c
+c000000003E91771A000000000000CB41
+t1049720602
+s52033
+
+N/Users/esri/Documents/project/TestShp/shapelib-1.2.10/shpopen.c
+c000000003E91771A0000000000010DB5
+t1049720602
+s69045
+
+N/Users/esri/Documents/project/TestShp/shapelib-1.2.10/shptree.c
+c000000003E91771A0000000000006B06
+t1049720602
+s27398
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F68C5090000000000244490
+t1332266249
+s2376848
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004F68C5090000000000089510
+t1332266249
+s562448
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004F68C50A0000000000069670
+t1332266250
+s431728
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c000000004F68C50F00000000000D9350
+t1332266255
+s889680
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F68C5130000000000353830
+t1332266259
+s3487792
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004F68C5130000000000001534
+t1332266259
+s5428
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004F68C5200000000000243A90
+t1332266272
+s2374288
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004F68C52300000000000998D0
+t1332266275
+s628944
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004F68C52400000000001AB190
+t1332266276
+s1749392
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004F68C5250000000000080D30
+t1332266277
+s527664
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004F68C526000000000006C8A0
+t1332266278
+s444576
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004F68C5290000000000000BF5
+t1332266281
+s3061
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F68C52C0000000000905E40
+t1332266284
+s9461312
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/libstdc++.dylib
+c000000004F68C5BD00000000000B89A0
+t1332266429
+s756128
+
+N/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/libz.dylib
+c000000004F68C5BE0000000000013460
+t1332266430
+s78944
+
+NTestShp-Info.plist
+c000000004DB7C6AB00000000000003CE
+t1303889579
+s974
+
+CBuild AST from /Users/esri/Documents/project/TestShp/Classes/Cluster.m
+r0
+
+CBuild AST from /Users/esri/Documents/project/TestShp/Classes/ClusterManager.m
+r0
+
+CBuild AST from /Users/esri/Documents/project/TestShp/Classes/ShpHelper.m
+r0
+
+CBuild AST from /Users/esri/Documents/project/TestShp/Classes/TestShpAppDelegate.m
+r0
+
+CBuild AST from /Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m
+r0
+
+CBuild AST from /Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenu.m
+r0
+
+CBuild AST from /Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenuItem.m
+r0
+
+CBuild AST from /Users/esri/Documents/project/TestShp/main.m
+r0
+
+CBuild AST from /Users/esri/Documents/project/TestShp/shapelib-1.2.10/dbfopen.c
+r0
+
+CBuild AST from /Users/esri/Documents/project/TestShp/shapelib-1.2.10/shpopen.c
+r0
+
+CBuild AST from /Users/esri/Documents/project/TestShp/shapelib-1.2.10/shptree.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies020d1ef70a7fb541^7a6c2ff70a7fb541^---0#1#0#--18"Check dependencies36"38D9C283-4F21-40FC-8817-11C371C3EB93-
+
+CCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/Cluster.o /Users/esri/Documents/project/TestShp/Classes/Cluster.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.951494
+e360647416.301870
+r1
+xCompileC
+xDerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/Cluster.o
+x/Users/esri/Documents/project/TestShp/Classes/Cluster.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/esri/Documents/project/TestShp/Classes/Cluster.m51bbf3f70a7fb541^b6f751f80a7fb541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/esri/Documents/project/TestShp/Classes/Cluster.m0000000000000000^3803"CompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/Cluster.o Classes/Cluster.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 -include /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/Cluster.d --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/Cluster.dia -c /Users/esri/Documents/project/TestShp/Classes/Cluster.m -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/Cluster.o36"9F3BA9CB-4C19-49DE-A4EB-C826A74785BA-
+
+CCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ClusterManager.o /Users/esri/Documents/project/TestShp/Classes/ClusterManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.951506
+e360647416.402470
+r1
+xCompileC
+xDerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ClusterManager.o
+x/Users/esri/Documents/project/TestShp/Classes/ClusterManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/esri/Documents/project/TestShp/Classes/ClusterManager.m16bdf3f70a7fb541^7c0f67f80a7fb541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/esri/Documents/project/TestShp/Classes/ClusterManager.m0000000000000000^3845"CompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ClusterManager.o Classes/ClusterManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 -include /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ClusterManager.d --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ClusterManager.dia -c /Users/esri/Documents/project/TestShp/Classes/ClusterManager.m -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ClusterManager.o36"4CDBCD8F-19A4-4BFF-8972-D9504A041BA5-
+
+CCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenu.o /Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenu.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.951739
+e360647416.201575
+r0
+xCompileC
+xDerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenu.o
+x/Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenu.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenu.m'
+oclang: error: no input files
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenu.m25cdf3f70a7fb541^8b8733f80a7fb541^-263"clang: error: no such file or directory: '/Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenu.m'clang: error: no input filesCommand /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@122"Command /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-360647416#18446744073709551615#0#-2#--29"Apple LLVM compiler 3.1 Error--0#0#0#-19%DVTDocumentLocation3@83"file://localhost/Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenu.m000000000080d041^3851"CompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenu.o QuadCurveMenu/QuadCurveMenu.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 -include /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenu.d --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenu.dia -c /Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenu.m -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenu.o36"9058A6A2-41B6-460B-85D5-0BE7384EF695-
+
+CCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenuItem.o /Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenuItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.951743
+e360647416.201657
+r0
+xCompileC
+xDerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenuItem.o
+x/Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenuItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenuItem.m'
+oclang: error: no input files
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenuItem.md2c8f3f70a7fb541^4d4833f80a7fb541^-267"clang: error: no such file or directory: '/Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenuItem.m'clang: error: no input filesCommand /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@122"Command /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-360647416#18446744073709551615#0#-2#--29"Apple LLVM compiler 3.1 Error--0#0#0#-19%DVTDocumentLocation3@87"file://localhost/Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenuItem.m000000000080d041^3875"CompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenuItem.o QuadCurveMenu/QuadCurveMenuItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 -include /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenuItem.d --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenuItem.dia -c /Users/esri/Documents/project/TestShp/QuadCurveMenu/QuadCurveMenuItem.m -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/QuadCurveMenuItem.o36"2F1870BB-AA7C-4D6C-AC3C-638651F74620-
+
+CCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ShpHelper.o /Users/esri/Documents/project/TestShp/Classes/ShpHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.951752
+e360647416.302799
+r1
+xCompileC
+xDerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ShpHelper.o
+x/Users/esri/Documents/project/TestShp/Classes/ShpHelper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/esri/Documents/project/TestShp/Classes/ShpHelper.m00caf3f70a7fb541^a8fe51f80a7fb541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/esri/Documents/project/TestShp/Classes/ShpHelper.m0000000000000000^3815"CompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ShpHelper.o Classes/ShpHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 -include /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ShpHelper.d --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ShpHelper.dia -c /Users/esri/Documents/project/TestShp/Classes/ShpHelper.m -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/ShpHelper.o36"F92598FC-E8F0-4780-8E06-714B05EC3665-
+
+CCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpAppDelegate.o /Users/esri/Documents/project/TestShp/Classes/TestShpAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.951451
+e360647416.402386
+r1
+xCompileC
+xDerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpAppDelegate.o
+x/Users/esri/Documents/project/TestShp/Classes/TestShpAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/esri/Documents/project/TestShp/Classes/TestShpAppDelegate.m7db1f3f70a7fb541^af0767f80a7fb541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/esri/Documents/project/TestShp/Classes/TestShpAppDelegate.m0000000000000000^3869"CompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpAppDelegate.o Classes/TestShpAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 -include /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpAppDelegate.d --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpAppDelegate.dia -c /Users/esri/Documents/project/TestShp/Classes/TestShpAppDelegate.m -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpAppDelegate.o36"EE488ECA-EFAD-4D42-9039-0E6C95D6D8D2-
+
+CCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpViewController.o /Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.951481
+e360647416.402867
+r1
+xCompileC
+xDerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpViewController.o
+x/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m:47:29: warning: assigning to 'id<AGSMapViewLayerDelegate>' from incompatible type 'TestShpViewController *'
+o        self.mapView.layerDelegate = self;
+o                                   ^ ~~~~
+o/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m:48:29: warning: assigning to 'id<AGSMapViewTouchDelegate>' from incompatible type 'TestShpViewController *'
+o        self.mapView.touchDelegate = self;
+o                                   ^ ~~~~
+o/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m:49:26: warning: unused variable 'sr' [-Wunused-variable]
+o    AGSSpatialReference *sr = [AGSSpatialReference spatialReferenceWithWKID:102100];
+o                         ^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m63b7f3f70a7fb541^d52167f80a7fb541^-787"/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m:47:29: warning: assigning to 'id<AGSMapViewLayerDelegate>' from incompatible type 'TestShpViewController *'        self.mapView.layerDelegate = self;                                   ^ ~~~~/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m:48:29: warning: assigning to 'id<AGSMapViewTouchDelegate>' from incompatible type 'TestShpViewController *'        self.mapView.touchDelegate = self;                                   ^ ~~~~/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m:49:26: warning: unused variable 'sr' [-Wunused-variable]    AGSSpatialReference *sr = [AGSSpatialReference spatialReferenceWithWKID:102100];                         ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@91"Assigning to 'id<AGSMapViewLayerDelegate>' from incompatible type 'TestShpViewController *'-360647416#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@85"file://localhost/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m0000000000000000^46#28#46#28#1371#0#14"Semantic Issue1(3@85"file://localhost/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m0000000000000000^46#30#46#34#1373#0#-2@91"Assigning to 'id<AGSMapViewTouchDelegate>' from incompatible type 'TestShpViewController *'-360647416#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@85"file://localhost/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m0000000000000000^47#28#47#28#1407#0#14"Semantic Issue1(3@85"file://localhost/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m0000000000000000^47#30#47#34#1409#0#-2@20"Unused variable 'sr'-360647416#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@85"file://localhost/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m0000000000000000^48#25#48#25#1440#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@85"file://localhost/Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m0000000000000000^3887"CompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpViewController.o Classes/TestShpViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 -include /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpViewController.d --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpViewController.dia -c /Users/esri/Documents/project/TestShp/Classes/TestShpViewController.m -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/TestShpViewController.o36"4B58473F-7954-4270-B15D-C8C486436AEE-
+
+CCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/dbfopen.o /Users/esri/Documents/project/TestShp/shapelib-1.2.10/dbfopen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.669342
+e360647415.780013
+r1
+xCompileC
+xDerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/dbfopen.o
+x/Users/esri/Documents/project/TestShp/shapelib-1.2.10/dbfopen.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/esri/Documents/project/TestShp/shapelib-1.2.10/dbfopen.c:185:13: warning: unused variable 'rcsid' [-Wunused-variable]
+ostatic char rcsid[] = 
+o            ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/esri/Documents/project/TestShp/shapelib-1.2.10/dbfopen.c2175abf70a7fb541^ffaec7f70a7fb541^-183"/Users/esri/Documents/project/TestShp/shapelib-1.2.10/dbfopen.c:185:13: warning: unused variable 'rcsid' [-Wunused-variable]static char rcsid[] =             ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"Unused variable 'rcsid'-360647415#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file://localhost/Users/esri/Documents/project/TestShp/shapelib-1.2.10/dbfopen.c0000000000000000^184#12#184#12#6653#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@79"file://localhost/Users/esri/Documents/project/TestShp/shapelib-1.2.10/dbfopen.c0000000000000000^3451"CompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/dbfopen.o shapelib-1.2.10/dbfopen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 -include /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-bmjtqjumlkjhxqgawixrnsoyefdg/TestShp_Prefix.pch -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/dbfopen.d --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/dbfopen.dia -c /Users/esri/Documents/project/TestShp/shapelib-1.2.10/dbfopen.c -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/dbfopen.o36"0EC285FD-6235-4859-A05F-15325B0C04FF-
+
+CCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/main.o /Users/esri/Documents/project/TestShp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.950879
+e360647416.301877
+r1
+xCompileC
+xDerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/main.o
+x/Users/esri/Documents/project/TestShp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Compile /Users/esri/Documents/project/TestShp/main.m5987f3f70a7fb541^5bed51f80a7fb541^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Users/esri/Documents/project/TestShp/main.m0000000000000000^3769"CompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 -include /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/main.dia -c /Users/esri/Documents/project/TestShp/main.m -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/main.o36"1A710861-44DA-4117-B236-EE9E95893A29-
+
+CCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shpopen.o /Users/esri/Documents/project/TestShp/shapelib-1.2.10/shpopen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.669362
+e360647415.786285
+r1
+xCompileC
+xDerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shpopen.o
+x/Users/esri/Documents/project/TestShp/shapelib-1.2.10/shpopen.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/esri/Documents/project/TestShp/shapelib-1.2.10/shpopen.c:161:13: warning: unused variable 'rcsid' [-Wunused-variable]
+ostatic char rcsid[] = 
+o            ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/esri/Documents/project/TestShp/shapelib-1.2.10/shpopen.ca182abf70a7fb541^bb48c9f70a7fb541^-183"/Users/esri/Documents/project/TestShp/shapelib-1.2.10/shpopen.c:161:13: warning: unused variable 'rcsid' [-Wunused-variable]static char rcsid[] =             ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"Unused variable 'rcsid'-360647415#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file://localhost/Users/esri/Documents/project/TestShp/shapelib-1.2.10/shpopen.c0000000000000000^160#12#160#12#5870#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@79"file://localhost/Users/esri/Documents/project/TestShp/shapelib-1.2.10/shpopen.c0000000000000000^3451"CompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shpopen.o shapelib-1.2.10/shpopen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 -include /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-bmjtqjumlkjhxqgawixrnsoyefdg/TestShp_Prefix.pch -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shpopen.d --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shpopen.dia -c /Users/esri/Documents/project/TestShp/shapelib-1.2.10/shpopen.c -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shpopen.o36"CD96808E-23A4-43CB-8674-620781604980-
+
+CCompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shptree.o /Users/esri/Documents/project/TestShp/shapelib-1.2.10/shptree.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.669354
+e360647415.752952
+r1
+xCompileC
+xDerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shptree.o
+x/Users/esri/Documents/project/TestShp/shapelib-1.2.10/shptree.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/esri/Documents/project/TestShp/shapelib-1.2.10/shptree.c:66:13: warning: unused variable 'rcsid' [-Wunused-variable]
+ostatic char rcsid[] = 
+o            ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/esri/Documents/project/TestShp/shapelib-1.2.10/shptree.c9775abf70a7fb541^44c1c0f70a7fb541^-182"/Users/esri/Documents/project/TestShp/shapelib-1.2.10/shptree.c:66:13: warning: unused variable 'rcsid' [-Wunused-variable]static char rcsid[] =             ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"Unused variable 'rcsid'-360647415#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file://localhost/Users/esri/Documents/project/TestShp/shapelib-1.2.10/shptree.c0000000000000000^65#12#65#12#2532#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@79"file://localhost/Users/esri/Documents/project/TestShp/shapelib-1.2.10/shptree.c0000000000000000^3451"CompileC DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shptree.o shapelib-1.2.10/shptree.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 -include /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-bmjtqjumlkjhxqgawixrnsoyefdg/TestShp_Prefix.pch -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shptree.d --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shptree.dia -c /Users/esri/Documents/project/TestShp/shapelib-1.2.10/shptree.c -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/Objects-normal/i386/shptree.o36"14427D08-5FBD-442A-911E-E1942121E729-
+
+CCompileXIB /Users/esri/Documents/project/TestShp/MainWindow.xib
+s360647415.216800
+e360647415.299804
+r1
+xCompileXIB
+x/Users/esri/Documents/project/TestShp/MainWindow.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compiling /Users/esri/Documents/project/TestShp/MainWindow.xib109437f70a7fb541^bec04cf70a7fb541^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/esri/Documents/project/TestShp/MainWindow.xib0000000000000000^830"CompileXIB MainWindow.xib    cd /Users/esri/Documents/project/TestShp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /xcode4.3.2/Xcode.app/Contents/Developer/usr/bin/..    /xcode4.3.2/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/MainWindow.nib /Users/esri/Documents/project/TestShp/MainWindow.xib --sdk /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"BCE89DE1-5D79-41D0-9DD1-32D63A87A9DA-
+
+CCompileXIB /Users/esri/Documents/project/TestShp/Resources-iPad/MainWindow-iPad.xib
+s360647415.217285
+e360647415.530639
+r1
+xCompileXIB
+x/Users/esri/Documents/project/TestShp/Resources-iPad/MainWindow-iPad.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compiling /Users/esri/Documents/project/TestShp/Resources-iPad/MainWindow-iPad.xib18b137f70a7fb541^78b78ef70a7fb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/esri/Documents/project/TestShp/Resources-iPad/MainWindow-iPad.xib0000000000000000^875"CompileXIB Resources-iPad/MainWindow-iPad.xib    cd /Users/esri/Documents/project/TestShp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /xcode4.3.2/Xcode.app/Contents/Developer/usr/bin/..    /xcode4.3.2/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/MainWindow-iPad.nib /Users/esri/Documents/project/TestShp/Resources-iPad/MainWindow-iPad.xib --sdk /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"931120A9-AF89-4CFD-8D3B-8B4DF089C366-
+
+CCompileXIB /Users/esri/Documents/project/TestShp/TestShpViewController.xib
+s360647415.216825
+e360647415.568790
+r1
+xCompileXIB
+x/Users/esri/Documents/project/TestShp/TestShpViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compiling /Users/esri/Documents/project/TestShp/TestShpViewController.xib789737f70a7fb541^618e92f70a7fb541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/esri/Documents/project/TestShp/TestShpViewController.xib0000000000000000^863"CompileXIB TestShpViewController.xib    cd /Users/esri/Documents/project/TestShp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /xcode4.3.2/Xcode.app/Contents/Developer/usr/bin/..    /xcode4.3.2/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/TestShpViewController.nib /Users/esri/Documents/project/TestShp/TestShpViewController.xib --sdk /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"BC68ECD3-382F-4A67-BF65-4AB862568EA8-
+
+CCpResource "Bing Logo.png" "DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing Logo.png"
+s360647415.216859
+e360647415.245907
+r1
+xCpResource
+xBing Logo.png
+xDerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing Logo.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing Logo.pngf29a37f70a7fb541^4df73ef70a7fb541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing%20Logo.png000000000080d041^724"CpResource "Bing Logo.png" "DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing Logo.png"    cd /Users/esri/Documents/project/TestShp    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/esri/Documents/project/TestShp/Bing Logo.png" /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app36"BF222BE0-3E4E-4B1D-BCDB-10CB8AD76A9A-
+
+CCpResource "Bing Logo@2x.png" "DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing Logo@2x.png"
+s360647415.216848
+e360647415.245749
+r1
+xCpResource
+xBing Logo@2x.png
+xDerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing Logo@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing Logo@2x.pnga29937f70a7fb541^bff03ef70a7fb541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing%20Logo@2x.png000000000080d041^733"CpResource "Bing Logo@2x.png" "DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Bing Logo@2x.png"    cd /Users/esri/Documents/project/TestShp    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/esri/Documents/project/TestShp/Bing Logo@2x.png" /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app36"93298A66-4727-44B4-8D1F-E9E3110B4DEB-
+
+CCpResource GpsDisplay.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay.png
+s360647415.217309
+e360647415.247892
+r1
+xCpResource
+xGpsDisplay.png
+xDerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay.png89b237f70a7fb541^fb753ff70a7fb541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay.png000000000080d041^721"CpResource GpsDisplay.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay.png    cd /Users/esri/Documents/project/TestShp    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/esri/Documents/project/TestShp/GpsDisplay.png /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app36"A4616FC2-BC40-4CEE-A007-75E5CC15890E-
+
+CCpResource GpsDisplay@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay@2x.png
+s360647415.246989
+e360647415.253085
+r1
+xCpResource
+xGpsDisplay@2x.png
+xDerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay@2x.pngb1503ff70a7fb541^b0cb40f70a7fb541^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay@2x.png000000000080d041^736"CpResource "GpsDisplay@2x.png" "DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplay@2x.png"    cd /Users/esri/Documents/project/TestShp    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/esri/Documents/project/TestShp/GpsDisplay@2x.png" /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app36"D74BE02F-61D8-4BD7-99A2-6506D49A23C3-
+
+CCpResource GpsDisplayHeading.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading.png
+s360647415.246967
+e360647415.250800
+r1
+xCpResource
+xGpsDisplayHeading.png
+xDerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading.png884a3ff70a7fb541^e33840f70a7fb541^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading.png000000000080d041^742"CpResource GpsDisplayHeading.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading.png    cd /Users/esri/Documents/project/TestShp    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/esri/Documents/project/TestShp/GpsDisplayHeading.png /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app36"EB370F9D-4BCA-4CEA-9650-70E383508353-
+
+CCpResource GpsDisplayHeading@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading@2x.png
+s360647415.246996
+e360647415.251368
+r1
+xCpResource
+xGpsDisplayHeading@2x.png
+xDerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading@2x.pngd74b3ff70a7fb541^fb5940f70a7fb541^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading@2x.png000000000080d041^757"CpResource "GpsDisplayHeading@2x.png" "DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/GpsDisplayHeading@2x.png"    cd /Users/esri/Documents/project/TestShp    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/esri/Documents/project/TestShp/GpsDisplayHeading@2x.png" /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app36"98BBBA55-CC42-4BBE-9ED6-76F44B7A82E2-
+
+CCpResource QuadCurveMenu/Images/bg-addbutton-highlighted.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-addbutton-highlighted.png
+r0
+
+CCpResource QuadCurveMenu/Images/bg-addbutton-highlighted@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-addbutton-highlighted@2x.png
+r0
+
+CCpResource QuadCurveMenu/Images/bg-addbutton.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-addbutton.png
+r0
+
+CCpResource QuadCurveMenu/Images/bg-addbutton@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-addbutton@2x.png
+r0
+
+CCpResource QuadCurveMenu/Images/bg-menuitem-highlighted.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-menuitem-highlighted.png
+r0
+
+CCpResource QuadCurveMenu/Images/bg-menuitem-highlighted@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-menuitem-highlighted@2x.png
+r0
+
+CCpResource QuadCurveMenu/Images/bg-menuitem.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-menuitem.png
+r0
+
+CCpResource QuadCurveMenu/Images/bg-menuitem@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/bg-menuitem@2x.png
+r0
+
+CCpResource QuadCurveMenu/Images/icon-plus-highlighted.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/icon-plus-highlighted.png
+r0
+
+CCpResource QuadCurveMenu/Images/icon-plus-highlighted@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/icon-plus-highlighted@2x.png
+r0
+
+CCpResource QuadCurveMenu/Images/icon-plus.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/icon-plus.png
+r0
+
+CCpResource QuadCurveMenu/Images/icon-plus@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/icon-plus@2x.png
+r0
+
+CCpResource QuadCurveMenu/Images/icon-star.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/icon-star.png
+r0
+
+CCpResource QuadCurveMenu/Images/icon-star@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/icon-star@2x.png
+r0
+
+CCpResource esri.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri.png
+s360647415.216898
+e360647415.245710
+r1
+xCpResource
+xesri.png
+xDerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri.png0b9937f70a7fb541^71e73ef70a7fb541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri.png000000000080d041^703"CpResource esri.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri.png    cd /Users/esri/Documents/project/TestShp    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/esri/Documents/project/TestShp/esri.png /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app36"554C2A8F-4660-4E48-9D0B-31EA218A45AB-
+
+CCpResource esri@2x.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri@2x.png
+s360647415.217275
+e360647415.247630
+r1
+xCpResource
+xesri@2x.png
+xDerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri@2x.pngc1ad37f70a7fb541^ec693ff70a7fb541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri@2x.png000000000080d041^718"CpResource "esri@2x.png" "DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/esri@2x.png"    cd /Users/esri/Documents/project/TestShp    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/esri/Documents/project/TestShp/esri@2x.png" /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app36"BEDD8CC2-9CC2-4986-A3ED-E58456814F22-
+
+CCpResource pushpin.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/pushpin.png
+s360647415.248804
+e360647415.253619
+r1
+xCpResource
+xpushpin.png
+xDerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/pushpin.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/pushpin.png01c23ff70a7fb541^d5ed40f70a7fb541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/pushpin.png000000000080d041^712"CpResource pushpin.png DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/pushpin.png    cd /Users/esri/Documents/project/TestShp    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/esri/Documents/project/TestShp/pushpin.png /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app36"A2BFF7B6-0CAC-4368-8BBE-C6DAF9FD707D-
+
+CCpResource res4_4m DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/res4_4m
+s360647415.248853
+e360647415.416824
+r1
+xCpResource
+xres4_4m
+xDerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/res4_4m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/res4_4mb4c73ff70a7fb541^4eb56af70a7fb541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/res4_4m000000000080d041^700"CpResource res4_4m DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/res4_4m    cd /Users/esri/Documents/project/TestShp    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/esri/Documents/project/TestShp/res4_4m /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app36"417ACCEE-BF49-4B1C-BD16-6161AA6FFD9B-
+
+CGenerateDSYMFile /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app.dSYM /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/TestShp
+r0
+
+CLd /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/TestShp normal i386
+r0
+
+CProcessInfoPlistFile /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Info.plist TestShp-Info.plist
+s360647415.205122
+e360647415.208560
+r1
+xProcessInfoPlistFile
+x/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Info.plist
+xTestShp-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Process TestShp-Info.plist4b9134f70a7fb541^d86435f70a7fb541^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/esri/Documents/project/TestShp/TestShp-Info.plist0000000000000000^714"ProcessInfoPlistFile DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Info.plist TestShp-Info.plist    cd /Users/esri/Documents/project/TestShp    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TestShp-Info.plist -genpkginfo /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app/Info.plist36"26CC408F-5C9B-4B89-9222-CA99678054E2-
+
+CProcessPCH /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-bmjtqjumlkjhxqgawixrnsoyefdg/TestShp_Prefix.pch.pth TestShp_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.578939
+e360647415.661781
+r1
+xProcessPCH
+x/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-bmjtqjumlkjhxqgawixrnsoyefdg/TestShp_Prefix.pch.pth
+xTestShp_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile TestShp_Prefix.pch755994f70a7fb541^ad6aa9f70a7fb541^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/esri/Documents/project/TestShp/TestShp_Prefix.pch0000000000000000^3297"ProcessPCH DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-bmjtqjumlkjhxqgawixrnsoyefdg/TestShp_Prefix.pch.pth TestShp_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-bmjtqjumlkjhxqgawixrnsoyefdg/TestShp_Prefix.pch.dia -c /Users/esri/Documents/project/TestShp/TestShp_Prefix.pch -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-bmjtqjumlkjhxqgawixrnsoyefdg/TestShp_Prefix.pch.pth -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-bmjtqjumlkjhxqgawixrnsoyefdg/TestShp_Prefix.pch.d36"4CC207FE-5765-49CC-AFD2-945C70D7DE60-
+
+CProcessPCH /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch.pth TestShp_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360647415.578927
+e360647415.944110
+r1
+xProcessPCH
+x/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch.pth
+xTestShp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile TestShp_Prefix.pchc95994f70a7fb541^4fe9f4f70a7fb541^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/esri/Documents/project/TestShp/TestShp_Prefix.pch0000000000000000^3665"ProcessPCH DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch.pth TestShp_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/esri/Documents/project/TestShp    setenv LANG en_US.US-ASCII    setenv PATH "/xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/xcode4.3.2/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /xcode4.3.2/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /xcode4.3.2/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-generated-files.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-own-target-headers.hmap -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-all-target-headers.hmap -iquote /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/TestShp-project-headers.hmap -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include -iquote/Users/esri/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/include -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources/i386 -I/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/TestShp.build/Debug-iphonesimulator/TestShp.build/DerivedSources -F/Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator -F/Users/esri/Documents/project/TestShp/../../../Library/SDKs/ArcGIS2.2.1 --serialize-diagnostics /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch.dia -c /Users/esri/Documents/project/TestShp/TestShp_Prefix.pch -o /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch.pth -MMD -MT dependencies -MF /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Intermediates/PrecompiledHeaders/TestShp_Prefix-dngxsgwybcprpwhkhyfherthnvvp/TestShp_Prefix.pch.d36"4B9F3A46-6CF5-4615-A319-55BCA849A983-
+
+CProcessPCH /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Index/PrecompiledHeaders/TestShp_Prefix-ffnizanspyeksuektevtzdgfztrv_ast/TestShp_Prefix.pch.pth TestShp_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Index/PrecompiledHeaders/TestShp_Prefix-gxqjgsjzijezzvbpcnrxpdlfqhgt_ast/TestShp_Prefix.pch.pth TestShp_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/esri/Documents/project/TestShp/DerivedData/TestShp/Build/Products/Debug-iphonesimulator/TestShp.app
+r0
+
